@@ -1,0 +1,17 @@
+<?php
+/**
+ * @var $block \Magelearn\CashDate\Block\Info\Cashondelivery
+ */
+?>
+<dl class="payment-method cashondelivery">
+    <dt class="title"><?= $block->escapeHtml($block->getMethod()->getTitle()) ?></dt>
+    <?php if ($block->getCashDate()): ?>
+        <dd class="content">
+            <b><?= $block->escapeHtml(__('Checkout Date')) ?></b>
+            <?= $block->escapeHtml($block->getCashDate()) ?>
+        </dd>
+    <?php endif; ?>
+    <?php if ($block->getInstructions()) : ?>
+	    <dd class="content"><?= /* @noEscape */ nl2br($block->escapeHtml($block->getInstructions())) ?></dd>
+	<?php endif; ?>
+</dl>

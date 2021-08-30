@@ -1,0 +1,22 @@
+{
+    "name": "magelearn/module-cash-date",
+    "description": "Add delivery date for cash on delivery payment method. Add date-time field on checkout page only when cash on delivery payment method selected.",
+    "type": "magento2-module",
+    "require": {},
+    "authors": [
+        {
+            "name": "vijay rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magelearn\\CashDate\\": ""
+        }
+    }
+}
