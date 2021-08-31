@@ -3,26 +3,14 @@ Add delivery date for cash on delivery payment method. Add date-time field on ch
 
 ## Features
 
-#### 1. *order delivery date* with Datetime picker and order comment in checkout page Magento2.
-        Datetime picker will display holiday and blackout dates in red and block color accordingly
-        (Tooltip on blackout dates).
+#### 1. *order cash date* with Date picker in checkout page Magento2 when cash on delivery payment method is selected.
 
-#### 2. *order delivery date* in multiple shipping address form Magento2.
-       Datetime picker will display holiday and blackout dates in red and block color accordingly
-       (Tooltip on blackout dates).
+#### 2. Admin system configuration to display date picker or not.
 
-#### 3. Admin system configuration to choose the weeek off days and Blackout dates.
+#### 3. Display *order cash date* on sales order view page at admin and also at frontend.
 
-#### 4. Will display different colors on checkout page for weeek off days and Blackout dates.
+#### 4. Display *order cash date* in sales order email template.
 
-#### 5. Will display Blackout dates message as a tooltip on calender days which was added from admin system configuration.
-
-#### 6. .less CSS file generation for different colors for Holildays and Black out dates
-
-#### 7. Display *order delivery date* and *delivery comment* on sales order create page at admin.
-
-#### 8. On sales order create page display disabled dates for holiday and black out dates with different colours.
-
-#### 9. Display *order delivery date* on sales order grid at admin.
+#### 5. Display *order cash date* in order PDF (For all PDFs).
 
 # Screen Shots
