@@ -24,3 +24,5 @@ Add delivery date for cash on delivery payment method. Add date-time field on ch
 #### 8. On sales order create page display disabled dates for holiday and black out dates with different colours.
 
 #### 9. Display *order delivery date* on sales order grid at admin.
+
+# Screen Shots
