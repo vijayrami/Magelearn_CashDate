@@ -1,6 +1,8 @@
 # Magelearn_CashDate
 Add cash date for cash on delivery payment method. Add date-time field on checkout page only when cash on delivery payment method selected.
 
+  `cash_date` information will be saved in **quote_payment** and **sales_order_payment** tables in `additional_information` column.
+
 ## Features
 
 #### 1. *order cash date* with Date picker in checkout page Magento2 when cash on delivery payment method is selected.
