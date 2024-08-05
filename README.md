@@ -17,8 +17,8 @@ Add cash date for cash on delivery payment method. Add date-time field on checko
 
 # Screen Shots
 
-[![admin](/assets/admin.png)
+![admin](/assets/admin.png)
 
-[![checkout.png](/assets/checkout.png)
+![checkout.png](/assets/checkout.png)
 
-[![checkout_1.png](/assets/checkout_1.png)
+![checkout_1.png](/assets/checkout_1.png)
